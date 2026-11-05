@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | R25EQ024</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #24292f;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background: #0969da;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #0969da;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        footer {
+            text-align: center;
+            background: #24292f;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my Projects Page</p>
+        <p>Roll Number: R25EQ024</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Welcome</h2>
+        <p>
+            Hello! I am a student learning programming and web development.
+            This website showcases my programming projects and practical work.
+        </p>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>1. C Programming - Hello World</h3>
+                <p>A simple C program to display Hello, World! using GCC.</p>
+            </div>
+
+            <div class="project">
+                <h3>2. Python - Hello World</h3>
+                <p>A basic Python program using the print() function.</p>
+            </div>
+
+            <div class="project">
+                <h3>3. Java - Hello World</h3>
+                <p>A Java program demonstrating the main method and output.</p>
+            </div>
+
+            <div class="project">
+                <h3>4. VS Code Extensions</h3>
+                <p>Exploring Prettier, GitLens and Live Share extensions.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am learning C, C++, Python, Java and GitHub.
+                My goal is to improve my coding and development skills.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 R25EQ024 | My Projects Portfolio</p>
+    </footer>
+
+</body>
+</html>
